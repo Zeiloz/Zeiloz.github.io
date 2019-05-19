@@ -5,6 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+		<link rel="stylesheet" type="text/css" href="jumbotron.css">
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -12,53 +13,62 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 		<style type="text/css">
-		.navbar {
-			margin-bottom: 30px;
-		}
 		</style>
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">hello world</a>
+		<header>
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="#">Portfolio</a>
 			<div class="navbar-collapse">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a class="nav-link" href="#">home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">about</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">contact</a></li>
-				</ul>
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="#">register</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Education</a></li>
 				</ul>
 			</div>
 		</nav>
-		<div class="jumbotron">
+		</header>
+		<main>
+			<section class="d-flex align-items-center my-0 home">
+				<div class="container text-center">
+					<h1 class = "home-fonts">Son Vu</h1>
+					<h2 class = "home-fonts">Software Engineer</h2>
+					<h4 class = "home-fonts">Computer Science Graduate Student</h4>
+					<h4 class = "home-fonts">Portland State University</h4>
+					<p>
+						<a href="https://github.com/Zeiloz/resume" class="btn btn-outline-dark btn-md mt-3" id="resume">Resume
+						</a>
+					</p>
+				</div>
+			</section>
+			<div class = "jumbotron">
+				<div class="container">
+					<h1 class = "home-fonts">About Me</h1>
+				</div>
+			</div>
 			<div class="container">
-				<h1>brace yourself</h1>
-				<p>this exercise looks like more work than it actually is, since you can copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed.</p>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h2>heading</h2>
-					<p>vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-					<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
+				<div class="row">
+					<div class="col-md-4">
+						<h2>heading</h2>
+						<p>vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+						<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
+					</div>
+					<div class="col-md-4">
+						<h2>heading</h2>
+						<p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl
+							elementum ex.</p>
+							<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
+						</div>
+						<div class="col-md-4">
+							<h2>heading</h2>
+							<p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>
+							<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-4">
-					<h2>heading</h2>
-					<p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl
-						elementum ex.</p>
-					<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
-				</div>
-				<div class="col-md-4">
-					<h2>heading</h2>
-					<p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>
-					<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
-				</div>
-			</div>
-		</div>
+			</main>
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">

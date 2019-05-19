@@ -1,3 +1,28 @@
-body {
-  padding-top: 2rem;
+.navbar {
+  background-color: #dfd9e7;
+}
+
+.home{
+  height: 93.5vh;
+  /*padding-bottom: 3rem;
+  padding-top: 3rem; */
+  background-image: url(background_image.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+}
+
+.home-fonts{
+  font-weight: 300;
 }
