@@ -2,8 +2,8 @@
   background-color: #dfd9e7;
 }
 
-.home{
-  height: 93.5vh;
+#home{
+  height: 93.3vh;
   /*padding-bottom: 3rem;
   padding-top: 3rem; */
   background-image: url(background_image.jpg);
@@ -11,6 +11,14 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: #ffff;
+  margin-bottom: 0;
+}
+
+#about{
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #ffff;
+
 }
 
 section {
@@ -25,4 +33,12 @@ section {
 
 .home-fonts{
   font-weight: 300;
+}
+
+.card-header{
+  font-weight: 400;
+  font-size: 24px;
+  color: #92C2DB;
+  background-color: #ffff !important;
+
 }
