@@ -16,6 +16,14 @@
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  #home{
+    height: 100vh;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
 #about{
   padding-bottom: 3rem;
   padding-top: 3rem;
@@ -28,6 +36,7 @@ section {
   margin: 0;
   max-width: none;
   background-color: #373B44;
+  background-size: cover;
   height: 100vh;
 }
 
