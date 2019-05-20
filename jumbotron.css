@@ -1,41 +1,49 @@
+html, body{
+  height: 100%;
+}
 .navbar {
   background-color: #dfd9e7;
 }
 
-#home{
-  height: 93.3vh;
-  /*padding-bottom: 3rem;
-  padding-top: 3rem; */
-  background-image: url(background_image.jpg);
-  /*background-position: center;
-  background-size: 100% 100%;
-  */
-  background-repeat: no-repeat;
-  background-color: #ffff;
-  margin-bottom: 0;
-  background-size: cover;
-}
-
-@media (min-width: 768px) {
-  #home{
-    height: 100vh;
-  }
-}
-
-#about{
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  background-color: #ffff;
-
-}
-
 section {
+  display: flex;
   width: 100%;
+  padding: 0 7%;
   margin: 0;
   max-width: none;
   background-color: #373B44;
-  background-size: cover;
   height: 100vh;
+}
+.home{
+  /*padding-bottom: 3rem;
+  padding-top: 3rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(background_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+  margin-bottom: 0;
+  min-height: 700px;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  min-height: 700px;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #ffff;
+}
+
+.center{
+  position: absolute;
+  justify-content: center !important;
+  text-align: center !important;
 }
 
 .home-fonts{
