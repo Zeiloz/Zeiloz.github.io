@@ -12,6 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 		<style type="text/css">
 		</style>
 	</head>
@@ -24,7 +26,7 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Education</a></li>
 				</ul>
 			</div>
@@ -81,39 +83,99 @@
 					</div>
 				</div>
 			</section>
-
-<!--
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<h2>heading</h2>
-						<p>vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-						<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
-					</div>
-					<div class="col-md-4">
-						<h2>heading</h2>
-						<p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl
-							elementum ex.</p>
-							<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
+			<section class="my-0 projects" id ="projects">
+				<div class="container center">
+					<h1 class = "home-fonts my-4">Projects</h1>
+					<div class="row">
+						<div class="col-md-4 my-4">
+							<div class="card">
+								<div class="card-header text-center"> SFTP Client </div>
+									<div class="card-body">
+										<ul class="text-left home-fonts">
+											<li>Developed a command line interface sFTP client</li>
+											<li>Utilized Agile methodology, Git, Python 3, and Pysftp</li>
+										</ul>
+										<p>
+											<a href="https://github.com/Zeiloz/CS410_Agile_Group2" class="btn btn-outline-dark btn-sm" id="sftp"> More Info &raquo
+											</a>
+										</p>
+									</div>
+							</div>
 						</div>
-						<div class="col-md-4">
-							<h2>heading</h2>
-							<p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>
-							<p><a class="btn btn-secondary" href="#" role="button">more details &raquo;</a></p>
+						<div class="col-md-4 my-4">
+							<div class="card">
+								<div class="card-header text-center"> XV6 OS</div>
+									<div class="card-body">
+										<ul class="text-left home-fonts">
+											<li>Improved OS scheduling by implementing a MLFQ scheduler</li>
+											<li>Improved process management of the OS scheduler by separating processes by its process state</li>
+										</ul>
+										<p>
+											<a href="https://github.com/Zeiloz/Xv6-" class="btn btn-outline-dark btn-sm" id="sftp"> More Info &raquo
+											</a>
+										</p>
+							</div>
 						</div>
 					</div>
+						<div class="col-md-4 my-4">
+							<div class="card">
+								<div class="card-header text-center"> 8-Puzzle</div>
+									<div class="card-body">
+										<ul class="text-left home-fonts">
+											<li>Implemented a 8-Puzzle solver in Python 3 using A* Search and Best-First Search</li>
+										</ul>
+										<p>
+											<a href="https://github.com/Zeiloz/8-puzzle" class="btn btn-outline-dark btn-sm" id="sftp"> More Info &raquo
+											</a>
+										</p>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 my-4">
+							<div class="card">
+								<div class="card-header text-center"> 8-Queens</div>
+									<div class="card-body">
+										<ul class="text-left home-fonts">
+											<li>Implemented a 8-Queen solver in Python 3 using Genetic Algorithms</li>
+										</ul>
+										<p>
+											<a href="https://github.com/Zeiloz/8-Queens" class="btn btn-outline-dark btn-sm" id="sftp"> More Info &raquo
+											</a>
+										</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 my-4">
+						<div class="card">
+							<div class="card-header text-center"> Convex Hull</div>
+								<div class="card-body">
+									<ul class="text-left home-fonts">
+										<li>Successfully proved Quick-hull is more time efficient than Brute Force</li>
+										<li>Utilized JavaScript, Jest testing framework for development</li>
+									</ul>
+						</div>
 				</div>
-			</main>
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
+			</section>
+		</main>
+    <footer >
+			<div class="container">
+				<div class="d-flex justify-content-between">
+					<div>
+						&copy; 2019 Copyright Son Vu
+					</div>
+					<div>
+						<a href="https://github.com/Zeiloz">
+							<i class="fa fa-github fa-md" id="icon"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/svuhoang/">
+							<i class="fa fa-linkedin-square fa-md" id="icon"></i>
+						</a>
+						<a href="mailto:svuhoang@gmail.com">
+							<i class="fa fa-envelope-open-o fa-md" aria-hidden="true"></i>
+						</a>
+					</div>
+			</div>
 		</footer>
--->
 	</body>
 
 </html>

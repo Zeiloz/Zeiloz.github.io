@@ -1,5 +1,6 @@
 html, body{
   height: 100%;
+  width: 100%;
 }
 .navbar {
   background-color: #dfd9e7;
@@ -35,9 +36,21 @@ section {
   align-items: center;
   margin-bottom: 0;
   min-height: 700px;
-  padding-bottom: 3rem;
+  /*padding-bottom: 3rem;
   padding-top: 3rem;
-  background-color: #ffff;
+  */
+  background-color: #D5D5D5;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  min-height: 700px;
+  /*padding-bottom: 3rem;
+  padding-top: 3rem;
+  */
+  background-color: #9099A2;
 }
 
 .center{
@@ -56,4 +69,20 @@ section {
   color: #92C2DB;
   background-color: #ffff !important;
 
+}
+footer {
+  background: #373B44;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+footer a {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+footer a:hover {
+  color: #70726F;
 }
